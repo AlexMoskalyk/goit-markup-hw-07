@@ -4,7 +4,7 @@
 }
 
 .team-list__item {
-  background-color: var(--bg-colour);
+  background-color: $bg-colour;
   border-radius: 0px 0px 4px 4px;
   padding-bottom: 30px;
 
@@ -18,7 +18,7 @@
 }
 
 .team-list__title {
-  color: var(--secondary-text-colour);
+  color: $secondary-text-colour;
 
   font-weight: 500;
   font-size: 16px;

@@ -1,6 +1,6 @@
 body {
-  background-color: var(--bg-colour);
-  color: var(--primary-text-colour);
+  background-color: $bg-colour;
+  color: $primary-text-colour;
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
 }

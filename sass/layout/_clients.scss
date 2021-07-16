@@ -4,7 +4,7 @@
 }
 
 .clients__title {
-  color: var(--secondary-text-colour);
+  color: $secondary-text-colour;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -37,16 +37,16 @@
 
   &:hover,
   &:focus {
-    border-color: var(--accent-blue-colour);
+    border-color: $accent-blue-colour;
   }
 
   &:hover .clients-list__icon,
   &:focus .clients-list__icon {
-    fill: var(--accent-blue-colour);
+    fill: $accent-blue-colour;
   }
 }
 
 .clients-list__icon {
-  fill: var(--icon-color);
+  fill: $icon-color;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }

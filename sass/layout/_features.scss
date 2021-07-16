@@ -10,7 +10,7 @@
 }
 
 .features-list__title {
-  color: var(--secondary-text-colour);
+  color: $secondary-text-colour;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -32,6 +32,6 @@
   align-items: center;
   max-width: 270px;
   height: 120px;
-  background-color: var(--background-our-team-section);
+  background-color: $background-our-team-section;
   margin-bottom: 30px;
 }

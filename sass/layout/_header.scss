@@ -17,7 +17,7 @@
 /* logo*/
 
 .logo {
-  color: var(--accent-blue-colour);
+  color: $accent-blue-colour;
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
@@ -30,14 +30,14 @@
 }
 
 .header__logo--inverse {
-  color: var(--logo-accent-colour);
+  color: $logo-accent-colour;
 }
 
 /* навигация сайта header */
 
 .site-nav__link--active {
   position: relative;
-  color: var(--accent-blue-colour);
+  color: $accent-blue-colour;
 }
 
 .site-nav__link--active::after {
@@ -48,7 +48,7 @@
   bottom: -33px;
   width: 100%; /*задаём длинну линии до наведения курсора*/
   height: 4px; /*задаём ширину линии*/
-  background-color: var(--accent-blue-colour); /*задаём цвет линии*/
+  background-color: $accent-blue-colour; /*задаём цвет линии*/
 }
 
 .site-nav {
@@ -61,7 +61,7 @@
 }
 
 .site-nav__link {
-  color: var(--secondary-text-colour);
+  color: $secondary-text-colour;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -72,7 +72,7 @@
 
   &:hover,
   &:focus {
-    color: var(--accent-blue-colour);
+    color: $accent-blue-colour;
   }
 }
 
@@ -91,21 +91,21 @@
 .kontakt-nav__link {
   display: flex;
   align-items: center;
-  color: var(--primary-text-colour);
+  color: $primary-text-colour;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
 
-  fill: var(--primary-text-colour);
+  fill: $primary-text-colour;
 
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   &:hover,
   &:focus {
-    color: var(--accent-blue-colour);
-    fill: var(--accent-blue-colour);
+    color: $accent-blue-colour;
+    fill: $accent-blue-colour;
   }
 }
 

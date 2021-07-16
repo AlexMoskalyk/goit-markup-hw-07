@@ -1,9 +1,9 @@
 .our-team {
-  background-color: var(--background-our-team-section);
+  background-color: $background-our-team-section;
 }
 
 .our-team__title {
-  color: var(--secondary-text-colour);
+  color: $secondary-text-colour;
 
   font-weight: 700;
   font-size: 36px;

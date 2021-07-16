@@ -1,7 +1,7 @@
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
-  background-color: var(--secondary-bg-colour);
+  background-color: $secondary-bg-colour;
 }
 
 .footer__flexbox {
@@ -15,12 +15,12 @@
 }
 
 .footer__logo-inverse {
-  color: var(--bg-colour);
+  color: $bg-colour;
 }
 /* адресс футер  */
 
 .footer__address {
-  color: var(--bg-colour);
+  color: $bg-colour;
 
   font-style: normal;
   font-size: 14px;
@@ -40,7 +40,7 @@
 }
 
 .social-network-container__title {
-  color: var(--bg-colour);
+  color: $bg-colour;
   font-weight: 700px;
   font-size: 14px;
   line-height: 1.14;
@@ -60,10 +60,10 @@
 }
 
 .social-network-list__icon--fill {
-  fill: var(--bg-colour);
+  fill: $bg-colour;
 
   &:hover,
   &:focus {
-    fill: var(--bg-colour);
+    fill: $bg-colour;
   }
 }
